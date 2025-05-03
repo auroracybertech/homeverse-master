@@ -21,8 +21,8 @@ header {
 }
 
 .container .wrapper {
-    width: 80vw;
-    height: 65vh;
+    width: 90vw;
+    height: 50vh;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
     margin: 0.5em auto;
     overflow: hidden;
@@ -61,27 +61,6 @@ header {
     background-position: center;
 }
 
-.container .button-holder {
-    position: absolute;
-    left: 50%;
-    bottom: 10%;
-    transform: translateX(-50%);
-    text-align: center;
-}
-
-.container .button-holder .button {
-    background-color: #edf0f1;
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0.3rem;
-    transition: background-color 0.3s ease;
-}
-
-.container .button-holder .button:hover {
-    background-color: #0088a9;
-}
 
 @keyframes slider {
     0% { transform: translateX(0%); }    /* Slide 1 */
